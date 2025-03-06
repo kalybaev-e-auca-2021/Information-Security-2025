@@ -1,0 +1,142 @@
+w - Move to the start of the next word.
+
+b - Move to the start of the previous word.
+
+e - Move to the end of the current word.
+
+Navigation Commands
+Word Navigation:
+
+w - Move to the start of the next word.
+
+b - Move to the start of the previous word.
+
+e - Move to the end of the current word.
+
+Line Navigation:
+
+0 - Move to the beginning of the line.
+
+$ - Move to the end of the line.
+
+gg - Move to the first line of the file.
+
+G - Move to the last line of the file.
+
+:{line_number} - Jump to a specific line (e.g., :10 jumps to line 10).
+
+Screen Navigation:
+
+Ctrl + f - Move forward one screen.
+
+Ctrl + b - Move backward one screen.
+
+H - Move to the top of the screen.
+
+M - Move to the middle of the screen.
+
+L - Move to the bottom of the screen.
+
+Editing Commands
+Insert Mode:
+
+i - Insert before the cursor.
+
+a - Insert after the cursor.
+
+I - Insert at the beginning of the line.
+
+A - Insert at the end of the line.
+
+o - Insert a new line below the current line.
+
+O - Insert a new line above the current line.
+
+Deleting Text:
+
+x - Delete the character under the cursor.
+
+dw - Delete from the cursor to the end of the word.
+
+dd - Delete the entire line.
+
+D - Delete from the cursor to the end of the line.
+
+d$ - Same as D.
+
+Copy and Paste:
+
+yy - Yank (copy) the current line.
+
+yw - Yank the current word.
+
+p - Paste after the cursor.
+
+P - Paste before the cursor.
+
+Undo and Redo:
+
+u - Undo the last change.
+
+Ctrl + r - Redo the last undone change.
+
+Search and Replace
+Search:
+
+/pattern - Search forward for a pattern (e.g., /hello).
+
+?pattern - Search backward for a pattern.
+
+n - Move to the next match.
+
+N - Move to the previous match.
+
+Replace:
+
+:%s/old/new/g - Replace all occurrences of old with new in the entire file.
+
+:%s/old/new/gc - Replace with confirmation for each match.
+
+:s/old/new/g - Replace in the current line only.
+
+File Operations
+Saving and Quitting:
+
+:w - Save the file.
+
+:q - Quit Vim.
+
+:wq - Save and quit.
+
+:q! - Quit without saving changes.
+
+:w {filename} - Save the file with a new name.
+
+Working with Multiple Files:
+
+:e {filename} - Open another file in the current buffer.
+
+:bn - Move to the next buffer.
+
+:bp - Move to the previous buffer.
+
+:bd - Close the current buffer.
+
+Visual Mode
+Visual Selection:
+
+v - Enter visual character mode.
+
+V - Enter visual line mode.
+
+Ctrl + v - Enter visual block mode.
+
+Operations on Visual Selection:
+
+y - Yank (copy) the selected text.
+
+d - Delete the selected text.
+
+> - Indent the selected text.
+
+< - Unindent the selected text.
